@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Language Analyzer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">English Language Analysis</p>
+        <h1>Measure structure, clarity, and cross-language contrast.</h1>
+        <p class="lede">Paste English text, run five linguistic metrics, then compare against curated German, French, Italian, and Spanish samples.</p>
+      </div>
+      <div class="hero__callout">
+        <p>Metrics update instantly. Ensure at least 50 characters before analyzing.</p>
+        <div class="pill">Client-side • No uploads</div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="panel input-panel">
+        <div class="panel__header">
+          <div>
+            <p class="eyebrow">Input</p>
+            <h2>English text</h2>
+          </div>
+          <div class="input-actions">
+            <button id="clearBtn" class="ghost">Clear</button>
+            <button id="analyzeBtn" class="primary">Analyze Text</button>
+          </div>
+        </div>
+        <textarea id="textInput" rows="12" placeholder="Paste or type at least 50 characters of English text..."></textarea>
+        <div class="input-meta">
+          <span id="charCount">0 characters</span>
+          <span id="wordCount">0 words</span>
+          <span id="inputWarning" class="warning">Minimum 50 characters required for reliable metrics.</span>
+        </div>
+      </section>
+
+      <section class="panel metrics-panel">
+        <div class="panel__header">
+          <div>
+            <p class="eyebrow">Results</p>
+            <h2>Your text analysis</h2>
+          </div>
+          <p class="muted">Five lenses: lexical density, word length, Latin vs. Germanic, syllable complexity, spelling predictability.</p>
+        </div>
+        <div id="metricsGrid" class="metrics-grid"></div>
+      </section>
+
+      <section class="panel compare-panel">
+        <div class="panel__header">
+          <div>
+            <p class="eyebrow">Comparison</p>
+            <h2>Contrast with European samples</h2>
+          </div>
+          <div class="compare-controls">
+            <label for="languageSelect">Target language</label>
+            <select id="languageSelect">
+              <option value="german">German</option>
+              <option value="french">French</option>
+              <option value="italian">Italian</option>
+              <option value="spanish">Spanish</option>
+            </select>
+            <button id="compareBtn" class="primary">Compare</button>
+          </div>
+        </div>
+        <div class="comparison-layout">
+          <div class="compare-block">
+            <h3>Your English text</h3>
+            <div id="userComparison" class="compare-cards"></div>
+          </div>
+          <div class="compare-block">
+            <h3 id="comparisonTitle">German sample</h3>
+            <div id="sampleExcerpt" class="sample-excerpt"></div>
+            <div id="sampleComparison" class="compare-cards"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
