@@ -81,21 +81,27 @@ const metricMeta = {
 const sampleTexts = {
   german: {
     title: "German sample",
-    text: `Technologie im Alltag praegt fast jede Stunde. Menschen nutzen morgens ihr Smartphone, um Nachrichten zu lesen und den Tag zu planen. In der Bahn arbeiten viele auf dem Laptop, waehrend sie Musik hoeren. Unternehmen setzen auf digitale Werkzeuge, um Projekte zu koordinieren und Teams zu verbinden. Online-Banking hat Bargeld ersetzt, und Termine beim Amt lassen sich inzwischen elektronisch buchen. Auch zu Hause steuern smarte Geraete das Licht und die Heizung, was Energie spart. Trotzdem diskutieren viele ueber Datenschutz und Abhaengigkeit von grossen Plattformen. Schulen fuehren Tablets ein, doch Lehrkraefte muessen neue Methoden lernen. Aeltere Menschen profitieren von Telemedizin, wenn Arztbesuche schwer fallen. Gleichzeitig fuerchten einige den Verlust persoenlicher Begegnungen. In der Freizeit streamen Nutzer Filme, spielen online oder lernen Sprachen mit Apps. Technik erleichtert vieles, aber sie verlangt stetige Aufmerksamkeit und digitale Kompetenz. Wer offline sein moechte, muss es bewusst einplanen.`,
+    source: "Goethe, Faust I (public domain)",
+    text: `Habe nun, ach! Philosophie, Juristerei und Medizin, und leider auch Theologie durchaus studiert, mit heissem Bemuehn. Da steh ich nun, ich armer Tor! Und bin so klug als wie zuvor; heisse Magister, heisse Doktor gar und ziehe schon an die zehen Jahr herauf, herab und quer und krumm meine Schueler an der Nase herum. Und sehe, dass wir nichts wissen koennen! Das will mir schier das Herz verbrennen. Zwar bin ich gescheiter als all die Laffen, Doktoren, Magister, Schreiber und Pfaffen; mich plagen keine Skrupel noch Zweifel, fuerchte mich weder vor Hoelle noch Teufel. Dafuer ist mir auch alle Freud entrissen, bilde mir nicht ein, was Rechts zu wissen, bilde mir nicht ein, ich koennte was lehren, die Menschen zu bessern und zu bekehren.`,
   },
   french: {
     title: "French sample",
-    text: `La technologie structure la journee de nombreuses personnes. On consulte le telephone au reveil pour la meteo et les messages. Dans les transports, on ecoute des podcasts ou on repond aux courriels professionnels. Les entreprises utilisent des plateformes collaboratives pour suivre les projets et partager des documents. Le paiement sans contact et les applications bancaires ont remplace le liquide dans la plupart des achats. A la maison, des ampoules et thermostats connectes ajustent la consommation d'energie. Cependant, les questions de vie privee et de dependance aux grands acteurs numeriques demeurent. Les ecoles introduisent des tablettes, mais les enseignants doivent adapter leurs pratiques. Les personnes agees decouvrent la telemedecine, utile quand les deplacements sont difficiles. Certains regrettent la diminution des rencontres physiques. Pendant les loisirs, on regarde des series en streaming, on joue en ligne ou on apprend une nouvelle langue avec des applications. La technologie simplifie beaucoup d'actions quotidiennes, mais elle exige aussi un sens critique et la capacite de deconnecter.`,
+    source: "Balzac, Le Pere Goriot (public domain)",
+    text: `Madame Vauquer, nee de Conflans, est une vieille femme qui, depuis quarante ans, tient a Paris une pension bourgeoise situee rue Neuve-Sainte-Genevieve, entre le Quartier Latin et le faubourg Saint-Marceau. Cette maison, connue sous le nom de Maison Vauquer, admet des hommes et des femmes, des jeunes gens et des vieillards, sans que jamais la plus equitable morale ait ete compromise. Mais c'est aussi l'une des pensions ou il s'est fait de ces petits drames que la vie quotidienne couve et broie dans les grandes villes, et auxquels personne ne prend part, parce qu'ils se passent en silence et en secret. La salle a manger, froide, nue, avec ses chaises de paille et ses tables de bois, a des figures de pensionnaires qui racontent la misere cachee, la vanite degoutee, l'espoir obstine ou l'ambition usee.`,
   },
   italian: {
     title: "Italian sample",
-    text: `La tecnologia accompagna ogni momento della vita quotidiana. Appena svegli molti controllano il telefono per leggere notizie e organizzare gli impegni. In autobus o in treno si ascolta musica o si risponde alle email di lavoro. Le aziende coordinano i progetti tramite piattaforme digitali e riunioni in video. I pagamenti contactless e le app bancarie hanno ridotto l'uso del contante. In casa luci e termostati smart regolano i consumi e inviano avvisi. Restano pero aperti i dubbi su privacy e dipendenza dai grandi servizi online. Le scuole introducono tablet, ma gli insegnanti devono sperimentare nuovi metodi. Gli anziani trovano utile la telemedicina quando spostarsi e difficile. Alcuni temono la perdita di relazioni dirette. Nel tempo libero si guardano film in streaming, si gioca online o si studia una lingua con le app. La tecnologia semplifica molte azioni, ma richiede attenzione continua e scelte consapevoli per evitare sovraccarico.`,
+    source: "Manzoni, I Promessi Sposi (public domain)",
+    text: `Quel ramo del lago di Como, che volge a mezzogiorno, tra due catene non interrotte di monti, tutto a seni e a golfi, a seconda dello sporgere e del rientrare di quelli, vien, quasi a un tratto, a ristringersi, e a prender corso e figura di fiume, tra un promontorio a destra, e un'ampia costiera dall'altra parte; e il ponte, che ivi congiunge le due rive, pare che renda ancor piu sensibile all'occhio questa trasformazione, e segni il punto in cui il lago cessa, e l'Adda rincomincia, per ripigliar poi nome di lago dove le rive, allontanandosi di nuovo, lasciano l'acqua distendersi e rallentarsi in nuovi golfi e in nuovi seni.`,
   },
   spanish: {
     title: "Spanish sample",
-    text: `La tecnologia esta presente en cada etapa del dia. Al despertar se revisa el movil para ver la agenda y las noticias. En el transporte publico se escuchan podcasts o se responden correos del trabajo. Las empresas coordinan tareas con herramientas en linea y videollamadas. El pago sin contacto y las aplicaciones bancarias han reemplazado el efectivo en muchos comercios. En casa las bombillas y termostatos inteligentes ajustan la energia automaticamente. Persisten inquietudes sobre la privacidad y la dependencia de las grandes plataformas. Las escuelas integran tabletas, pero los docentes deben adaptar sus clases. Las personas mayores usan la telemedicina cuando viajar resulta complicado. Algunos lamentan que disminuyan las reuniones cara a cara. En el ocio se ven series en streaming, se juega en linea o se aprende un idioma con aplicaciones. La tecnologia facilita la vida, aunque exige gestionar las notificaciones y decidir cuando desconectarse para mantener el equilibrio.`,
+    source: "Cervantes, Don Quijote (public domain)",
+    text: `En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivi un hidalgo de los de lanza en astillero, adarga antigua, rocin flaco y galgo corredor. Una olla de algo mas vaca que carnero, salpicon las mas noches, duelos y quebrantos los sabados, lentejas los viernes, algun palomino de anadidura los domingos, consumian las tres partes de su hacienda. El resto della concluian sayo de velarte, calzas de velludo para las fiestas con sus pantuflos de lo mismo, y los dias de entresemana se honraba con su vellori de lo mas fino. Tenia en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que asi ensillaba el rocin como tomaba la podadera.`,
   }
 };
+
+const canonicalTargetWords = 180;
 
 function normalizeText(raw) {
   return raw.toLowerCase().replace(/\s+/g, " ").trim();
@@ -104,6 +110,12 @@ function normalizeText(raw) {
 function tokenize(raw) {
   const clean = normalizeText(raw).replace(/[^a-z'\-\s]/g, " ");
   return clean.split(" ").filter(Boolean);
+}
+
+function limitWords(text, maxWords) {
+  const words = normalizeText(text).split(" ").filter(Boolean);
+  if (words.length <= maxWords) return normalizeText(text);
+  return words.slice(0, maxWords).join(" ");
 }
 
 function stripLetters(word) {
@@ -340,7 +352,7 @@ function runComparison() {
   const lang = languageSelect.value;
   const sample = sampleTexts[lang];
   comparisonTitle.textContent = sample.title;
-  sampleExcerpt.textContent = sample.text.slice(0, 380) + (sample.text.length > 380 ? "..." : "");
+  sampleExcerpt.textContent = sample.truncatedText.slice(0, 380) + (sample.truncatedText.length > 380 ? "..." : "");
   renderComparison(userComparison, userMetrics);
   renderComparison(sampleComparison, sample.metrics);
 }
@@ -357,9 +369,12 @@ textInput.addEventListener("input", updateCharState);
 
 function preloadSamples() {
   Object.keys(sampleTexts).forEach((key) => {
-    sampleTexts[key].metrics = computeMetrics(sampleTexts[key].text);
+    const truncated = limitWords(sampleTexts[key].text, canonicalTargetWords);
+    sampleTexts[key].truncatedText = truncated;
+    sampleTexts[key].metrics = computeMetrics(truncated);
   });
-  sampleExcerpt.textContent = sampleTexts.german.text.slice(0, 380) + "...";
+  const first = sampleTexts.german;
+  sampleExcerpt.textContent = first.truncatedText.slice(0, 380) + (first.truncatedText.length > 380 ? "..." : "");
 }
 
 preloadSamples();
